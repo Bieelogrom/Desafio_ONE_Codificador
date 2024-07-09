@@ -117,7 +117,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 #itens{
@@ -156,7 +155,7 @@ small{
   font-size: 24px;
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
   #mainWrapper{
     width: 100%;
     height: 100%;
@@ -174,6 +173,7 @@ small{
 
   #textoCodificado{
     width: 100%;
+
   }
 
   .botao{
